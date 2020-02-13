@@ -5,9 +5,9 @@
     "MyEC2Instance" : {
       "Type" : "AWS::EC2::Instance",
       "Properties" : {
-        "ImageId" : "ami-07cda0db070313c52",
+        "ImageId" : "ami-039346fed23fb53ad",
         "InstanceType" : "t2.medium",
-        "KeyName" : "paris",
+        "KeyName" : "paris-mm",
         "BlockDeviceMappings" : [
           {
             "DeviceName" : "/dev/sdm",
